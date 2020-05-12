@@ -58,6 +58,8 @@
             this.ClientSize = new System.Drawing.Size(435, 450);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.lstBoxListaPadres);
+            this.MaximumSize = new System.Drawing.Size(451, 489);
+            this.MinimumSize = new System.Drawing.Size(451, 489);
             this.Name = "FmrReportePadresPorAula";
             this.Text = "FmrReportePadresPorAula";
             this.Load += new System.EventHandler(this.FmrReportePadresPorAula_Load);

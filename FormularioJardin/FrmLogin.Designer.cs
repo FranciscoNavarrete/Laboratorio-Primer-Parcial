@@ -125,6 +125,8 @@
             this.Controls.Add(this.lblContraseña);
             this.Controls.Add(this.lblUsuario);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximumSize = new System.Drawing.Size(492, 405);
+            this.MinimumSize = new System.Drawing.Size(492, 405);
             this.Name = "FrmLogin";
             this.Text = "Login";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
