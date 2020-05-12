@@ -1,0 +1,6 @@
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debug\Entidades.dll
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debug\Entidades.pdb
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.dll
+C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.pdb
