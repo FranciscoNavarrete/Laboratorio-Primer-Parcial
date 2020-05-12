@@ -223,7 +223,10 @@
             this.Controls.Add(this.lblProfesor);
             this.Controls.Add(this.lblTurno);
             this.Controls.Add(this.lblColor);
+            this.MaximumSize = new System.Drawing.Size(580, 500);
+            this.MinimumSize = new System.Drawing.Size(580, 500);
             this.Name = "AltaAula";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AltaAula";
             this.Load += new System.EventHandler(this.AltaAula_Load);
             this.ResumeLayout(false);

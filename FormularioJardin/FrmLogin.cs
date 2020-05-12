@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace FormularioJardin
 {
@@ -19,12 +20,14 @@ namespace FormularioJardin
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            if(txtUsuario.Text == "admin" && txtContraseña.Text == "1234")
+            
+            if (txtUsuario.Text == "admin" && txtContraseña.Text == "1234")
             {
                 MenPrincipal menu = new MenPrincipal();
                 this.IsMdiContainer = true;
                 menu.Show();
                 this.Hide();
+                
             }
             else
             {

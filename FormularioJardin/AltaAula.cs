@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Drawing.Configuration;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -101,8 +102,9 @@ namespace FormularioJardin
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+            //Puse sonido
+            SystemSounds.Hand.Play();
 
-            
             if (this.cmbColor.SelectedItem == null || this.cmbProfesor.SelectedItem == null || this.cmbTurno.SelectedItem == null)
             {
                 MessageBox.Show("Completar todos los campos");

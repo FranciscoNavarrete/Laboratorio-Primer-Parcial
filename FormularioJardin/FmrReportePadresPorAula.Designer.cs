@@ -61,7 +61,9 @@
             this.MaximumSize = new System.Drawing.Size(451, 489);
             this.MinimumSize = new System.Drawing.Size(451, 489);
             this.Name = "FmrReportePadresPorAula";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FmrReportePadresPorAula";
+            this.TransparencyKey = System.Drawing.Color.Silver;
             this.Load += new System.EventHandler(this.FmrReportePadresPorAula_Load);
             this.ResumeLayout(false);
 

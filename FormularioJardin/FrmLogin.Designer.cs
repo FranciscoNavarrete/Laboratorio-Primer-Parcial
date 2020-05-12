@@ -115,6 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(476, 366);
             this.Controls.Add(this.lblContra);
             this.Controls.Add(this.lblAdmin);
@@ -128,6 +129,8 @@
             this.MaximumSize = new System.Drawing.Size(492, 405);
             this.MinimumSize = new System.Drawing.Size(492, 405);
             this.Name = "FrmLogin";
+            this.Opacity = 0.95D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

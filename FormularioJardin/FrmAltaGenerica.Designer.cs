@@ -307,7 +307,10 @@
             this.Controls.Add(this.lblDniAlumno);
             this.Controls.Add(this.lblApellidoAlumno);
             this.Controls.Add(this.lblNombreAlumno);
+            this.MaximumSize = new System.Drawing.Size(580, 500);
+            this.MinimumSize = new System.Drawing.Size(580, 500);
             this.Name = "FrmAltaGenerica";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Alta de Alumno";
             this.Load += new System.EventHandler(this.AltaAlumno_Load);
             this.ResumeLayout(false);

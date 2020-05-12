@@ -246,7 +246,7 @@ namespace FormularioJardin
                 Cursor.Current = Cursors.Arrow;
                 
                 FrmAltaGenerica nuevoDocente = new FrmAltaGenerica();
-                nuevoDocente.MdiParent = this;
+                //nuevoDocente.MdiParent = this;
                 nuevoDocente.Show();
             }
 
@@ -261,8 +261,8 @@ namespace FormularioJardin
         private void altaNoDocenteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmAltaGenerica altaNoDocente = new FrmAltaGenerica(true, valorHora);
-            this.IsMdiContainer = true;
-            altaNoDocente.MdiParent = this;
+            this.IsMdiContainer = false;
+            //altaNoDocente.MdiParent = this;
             altaNoDocente.Text = " Alta de Personal del colegio";
 
             altaNoDocente.Show();
