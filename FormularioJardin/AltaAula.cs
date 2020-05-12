@@ -205,9 +205,10 @@ namespace FormularioJardin
                 }
             }
         }
-
+        
         private void btmPasoAAlula_Click(object sender, EventArgs e)
         {
+            //agrego de la listbox de sin aula los alumnos seleccionados y los mando a los que tienen aula
             lstboxAlumConAula.Items.Add(lstBoxAlumSinAula.SelectedItem);
             lstBoxAlumSinAula.Items.RemoveAt(lstBoxAlumSinAula.SelectedIndex);
         }
