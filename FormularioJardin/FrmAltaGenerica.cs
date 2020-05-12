@@ -24,7 +24,7 @@ namespace FormularioJardin
             InitializeComponent();
         }
         public FrmAltaGenerica(List<Alumno> lstAlumno):this()
-        {
+        { //
             this.lstAlumno = lstAlumno;
         }
         public FrmAltaGenerica(bool cambio, string valor) : this ()
