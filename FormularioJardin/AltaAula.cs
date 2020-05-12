@@ -18,9 +18,9 @@ namespace FormularioJardin
         List<Docente> lstDocentes;
         List<Alumno> lstAlumnos;
         List<Aula> lstAulaAmarillo;
-        //List<Aula> lstAulaVerde;
-        //List<Aula> lstAulaRojo;
-        //List<Aula> lstAulaNaranja;
+        List<Aula> lstAulaVerde;
+        List<Aula> lstAulaRojo;
+        List<Aula> lstAulaNaranja;
 
         EColores colorSala;
         ETurno jornada;
@@ -36,12 +36,12 @@ namespace FormularioJardin
             this.lstAulaAmarillo = new List<Aula>();
             InitializeComponent();
         }
-        
+
         public AltaAula(List<Docente> lstDocentes, List<Alumno> lstAlumno) : this()
         {
             this.lstDocentes = lstDocentes;
             this.lstAlumnos = lstAlumno;
-            
+
         }
         private void AltaAula_Load(object sender, EventArgs e)
         {
@@ -80,7 +80,7 @@ namespace FormularioJardin
         private void cmbColor_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-
+            //TODO: Hacer switch
             if (this.cmbColor.Text == "Amarillo")
             {
                 this.BackColor = Color.Yellow;
@@ -97,7 +97,7 @@ namespace FormularioJardin
             {
                 this.BackColor = Color.Green;
             }
-            //TODO: buscar rgbs
+
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -118,8 +118,8 @@ namespace FormularioJardin
                     this.unDocente = (Docente)cmbProfesor.SelectedItem;
                     this.jornada = (ETurno)cmbTurno.SelectedItem;
                     //Alumno alumno = ls
-                    if(!(this.lstAulaAmarillo is null))
-                    this.lstAulaAmarillo.Add(new Aula(this.colorSala, this.jornada, this.unDocente));
+                    if (!(this.lstAulaAmarillo is null))
+                        this.lstAulaAmarillo.Add(new Aula(this.colorSala, this.jornada, this.unDocente));
 
 
                     //lstBoxAlumSinAula.Items.Remove()
@@ -130,7 +130,54 @@ namespace FormularioJardin
                     MessageBox.Show("Se guardaron correctamente los cambios");
                     this.Close();
                 }
-                #region MyRegion
+                else
+                {
+                    //Me da de alta pero de a un aula, Sino tira excepcion
+                    if (cmbColor.Text == "Verde")
+                    {
+                        this.colorSala = (EColores)cmbColor.SelectedItem;
+                        this.unDocente = (Docente)cmbProfesor.SelectedItem;
+                        this.jornada = (ETurno)cmbTurno.SelectedItem;
+                        //Alumno alumno = ls
+                        if (!(this.lstAulaVerde is null))
+                            this.lstAulaVerde.Add(new Aula(this.colorSala, this.jornada, this.unDocente));
+
+
+                        //lstBoxAlumSinAula.Items.Remove()
+                        //foreach (var item in this.lstAlumnos)
+                        //{
+                        //    lstBoxAlumSinAula.Items.Add(item.Nombre + " " + item.Apellido);
+                        //}
+                        MessageBox.Show("Se guardaron correctamente los cambios");
+                        this.Close();
+                    }
+
+                    else
+                    {
+
+                        //Me da de alta pero de a un aula, Sino tira excepcion
+                        if (cmbColor.Text == "Rojo")
+                        {
+                            this.colorSala = (EColores)cmbColor.SelectedItem;
+                            this.unDocente = (Docente)cmbProfesor.SelectedItem;
+                            this.jornada = (ETurno)cmbTurno.SelectedItem;
+                            //Alumno alumno = ls
+                            if (!(this.lstAulaRojo is null))
+                                this.lstAulaRojo.Add(new Aula(this.colorSala, this.jornada, this.unDocente));
+
+
+                            //lstBoxAlumSinAula.Items.Remove()
+                            //foreach (var item in this.lstAlumnos)
+                            //{
+                            //    lstBoxAlumSinAula.Items.Add(item.Nombre + " " + item.Apellido);
+                            //}
+                            MessageBox.Show("Se guardaron correctamente los cambios");
+                            this.Close();
+
+                            //FALTA AZUL
+                        }
+                    }
+                    #region MyRegion
                     //var color3 = this.cmbColor.SelectedItem;
 
                     //var profe = this.cmbProfesor.SelectedItem;
@@ -155,8 +202,7 @@ namespace FormularioJardin
                     //}
 
                     #endregion
-
-
+                }
             }
         }
 

@@ -144,8 +144,8 @@
             // CreoObjDefault
             // 
             this.CreoObjDefault.Name = "CreoObjDefault";
-            this.CreoObjDefault.Size = new System.Drawing.Size(221, 20);
-            this.CreoObjDefault.Text = "Crear docentes, no docentes, alumnos";
+            this.CreoObjDefault.Size = new System.Drawing.Size(111, 20);
+            this.CreoObjDefault.Text = "Crear por defecto";
             this.CreoObjDefault.Click += new System.EventHandler(this.CreoObjDefault_Click);
             // 
             // MenPrincipal
