@@ -4,10 +4,11 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace Entidades
 {
-    public class Aula
+    public class Aula : IMensaje<Aula>
     {
         private List<Alumno> alumnos;
         private EColores colorSala;
@@ -35,6 +36,12 @@ namespace Entidades
         {
             get { return this.turno; }
             set { this.turno = value; }
+        }
+
+        public Aula AutoReferencia
+        {
+            get { return this; }
+            set { this.docente = value.docente; }
         }
         #endregion
 
@@ -64,6 +71,11 @@ namespace Entidades
             {
                 Console.WriteLine("No se pudo crear una aula nueva."); 
             }
+        }
+
+        public string MostrarMensaje()
+        {
+            return this.ToString();
         }
     }
 }

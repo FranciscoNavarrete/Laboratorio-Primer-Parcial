@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Enti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormularioJardin", "FormularioJardin\FormularioJardin.csproj", "{E90F6B25-EB6C-4F23-B325-0AF4C31EB8AF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaUnitaria", "PruebaUnitaria\PruebaUnitaria.csproj", "{E2691C8B-E326-404A-8AA7-28D9053B2369}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{E90F6B25-EB6C-4F23-B325-0AF4C31EB8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90F6B25-EB6C-4F23-B325-0AF4C31EB8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90F6B25-EB6C-4F23-B325-0AF4C31EB8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2691C8B-E326-404A-8AA7-28D9053B2369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2691C8B-E326-404A-8AA7-28D9053B2369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2691C8B-E326-404A-8AA7-28D9053B2369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2691C8B-E326-404A-8AA7-28D9053B2369}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

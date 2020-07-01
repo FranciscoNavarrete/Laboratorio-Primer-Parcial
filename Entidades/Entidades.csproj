@@ -45,8 +45,10 @@
     <Compile Include="Alumno.cs" />
     <Compile Include="Aula.cs" />
     <Compile Include="Docente.cs" />
+    <Compile Include="IMensaje.cs" />
     <Compile Include="Persona.cs" />
     <Compile Include="Personal.cs" />
+    <Compile Include="PersonaSinDNIException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Responsable.cs" />
   </ItemGroup>

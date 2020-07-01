@@ -4,3 +4,8 @@ C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debu
 C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debug\Entidades.pdb
 C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.dll
 C:\Users\walte\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.pdb
+C:\Users\frann\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debug\Entidades.dll
+C:\Users\frann\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\bin\Debug\Entidades.pdb
+C:\Users\frann\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\frann\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.dll
+C:\Users\frann\source\ProyectosFrancisco\FranciscoNavarrete2D\Entidades\obj\Debug\Entidades.pdb

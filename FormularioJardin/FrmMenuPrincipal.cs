@@ -32,6 +32,12 @@ namespace FormularioJardin
             get { return this.listaAlumnos; }
             set { listaAlumnos = value; }
         }
+
+        public void CreoObjDefault_Click()
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Responsable> ListaResponsable
         {
             get { return this.listaResponsable; }

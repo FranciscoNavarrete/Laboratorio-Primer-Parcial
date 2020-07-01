@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AltaAula));
             this.lblColor = new System.Windows.Forms.Label();
             this.lblTurno = new System.Windows.Forms.Label();
             this.lblProfesor = new System.Windows.Forms.Label();
@@ -44,6 +45,7 @@
             this.lblNombreDelProfe = new System.Windows.Forms.Label();
             this.btmPasoAAlula = new System.Windows.Forms.Button();
             this.btnPasoASinAula = new System.Windows.Forms.Button();
+            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine(((System.ComponentModel.Component)(this)));
             this.SuspendLayout();
             // 
             // lblColor
@@ -200,6 +202,14 @@
             this.btnPasoASinAula.TabIndex = 13;
             this.btnPasoASinAula.Text = ">>>";
             this.btnPasoASinAula.UseVisualStyleBackColor = true;
+            this.btnPasoASinAula.Click += new System.EventHandler(this.btnPasoASinAula_Click);
+            // 
+            // skinEngine1
+            // 
+            this.skinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA==";
+            this.skinEngine1.SkinFile = "C:\\Users\\walte\\Desktop\\Componentes Graficos Vb2\\SKIN NET 2010 WIN 7\\SkinVS.NET\\Ma" +
+    "cOS\\MacOS.ssk";
+            this.skinEngine1.SkinStreamMain = ((System.IO.Stream)(resources.GetObject("skinEngine1.SkinStreamMain")));
             // 
             // AltaAula
             // 
@@ -252,5 +262,6 @@
         private System.Windows.Forms.Label lblNombreDelProfe;
         private System.Windows.Forms.Button btmPasoAAlula;
         private System.Windows.Forms.Button btnPasoASinAula;
+        private Sunisoft.IrisSkin.SkinEngine skinEngine1;
     }
 }

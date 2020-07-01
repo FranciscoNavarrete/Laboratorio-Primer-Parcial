@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAltaGenerica));
             this.btnGuardarAlumno = new System.Windows.Forms.Button();
             this.btnCancelarAlta = new System.Windows.Forms.Button();
             this.txtDniAlumno = new System.Windows.Forms.TextBox();
@@ -51,6 +52,7 @@
             this.lblHsalidaDocente = new System.Windows.Forms.Label();
             this.cmbHoraEntrada = new System.Windows.Forms.ComboBox();
             this.cmbHSalida = new System.Windows.Forms.ComboBox();
+            this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine(((System.ComponentModel.Component)(this)));
             this.SuspendLayout();
             // 
             // btnGuardarAlumno
@@ -78,21 +80,21 @@
             this.txtDniAlumno.Location = new System.Drawing.Point(164, 110);
             this.txtDniAlumno.Name = "txtDniAlumno";
             this.txtDniAlumno.Size = new System.Drawing.Size(139, 20);
-            this.txtDniAlumno.TabIndex = 30;
+            this.txtDniAlumno.TabIndex = 2;
             // 
             // txtApellidoAlumno
             // 
             this.txtApellidoAlumno.Location = new System.Drawing.Point(164, 69);
             this.txtApellidoAlumno.Name = "txtApellidoAlumno";
             this.txtApellidoAlumno.Size = new System.Drawing.Size(139, 20);
-            this.txtApellidoAlumno.TabIndex = 29;
+            this.txtApellidoAlumno.TabIndex = 1;
             // 
             // txtNombreAlumno
             // 
             this.txtNombreAlumno.Location = new System.Drawing.Point(164, 31);
             this.txtNombreAlumno.Name = "txtNombreAlumno";
             this.txtNombreAlumno.Size = new System.Drawing.Size(139, 20);
-            this.txtNombreAlumno.TabIndex = 28;
+            this.txtNombreAlumno.TabIndex = 0;
             // 
             // cmbColorSala
             // 
@@ -105,7 +107,7 @@
             this.cmbColorSala.Location = new System.Drawing.Point(46, 259);
             this.cmbColorSala.Name = "cmbColorSala";
             this.cmbColorSala.Size = new System.Drawing.Size(121, 21);
-            this.cmbColorSala.TabIndex = 26;
+            this.cmbColorSala.TabIndex = 5;
             // 
             // lblPrecioDeCouta
             // 
@@ -154,7 +156,7 @@
             this.rbtfemeninoAlumno.Location = new System.Drawing.Point(151, 192);
             this.rbtfemeninoAlumno.Name = "rbtfemeninoAlumno";
             this.rbtfemeninoAlumno.Size = new System.Drawing.Size(81, 19);
-            this.rbtfemeninoAlumno.TabIndex = 21;
+            this.rbtfemeninoAlumno.TabIndex = 4;
             this.rbtfemeninoAlumno.TabStop = true;
             this.rbtfemeninoAlumno.Text = "Femenino";
             this.rbtfemeninoAlumno.UseVisualStyleBackColor = true;
@@ -166,7 +168,7 @@
             this.rbtMasculinoAlumno.Location = new System.Drawing.Point(46, 192);
             this.rbtMasculinoAlumno.Name = "rbtMasculinoAlumno";
             this.rbtMasculinoAlumno.Size = new System.Drawing.Size(82, 19);
-            this.rbtMasculinoAlumno.TabIndex = 20;
+            this.rbtMasculinoAlumno.TabIndex = 3;
             this.rbtMasculinoAlumno.TabStop = true;
             this.rbtMasculinoAlumno.Text = "Masculino";
             this.rbtMasculinoAlumno.UseVisualStyleBackColor = true;
@@ -206,7 +208,7 @@
             this.txtLegajo.Location = new System.Drawing.Point(203, 260);
             this.txtLegajo.Name = "txtLegajo";
             this.txtLegajo.Size = new System.Drawing.Size(100, 20);
-            this.txtLegajo.TabIndex = 34;
+            this.txtLegajo.TabIndex = 6;
             // 
             // cmbPrecioCuota
             // 
@@ -218,14 +220,14 @@
             this.cmbPrecioCuota.Location = new System.Drawing.Point(46, 341);
             this.cmbPrecioCuota.Name = "cmbPrecioCuota";
             this.cmbPrecioCuota.Size = new System.Drawing.Size(121, 21);
-            this.cmbPrecioCuota.TabIndex = 35;
+            this.cmbPrecioCuota.TabIndex = 8;
             // 
             // txtResponsable
             // 
             this.txtResponsable.Location = new System.Drawing.Point(355, 260);
             this.txtResponsable.Name = "txtResponsable";
             this.txtResponsable.Size = new System.Drawing.Size(100, 20);
-            this.txtResponsable.TabIndex = 36;
+            this.txtResponsable.TabIndex = 7;
             // 
             // label1
             // 
@@ -278,6 +280,13 @@
             this.cmbHSalida.Name = "cmbHSalida";
             this.cmbHSalida.Size = new System.Drawing.Size(114, 21);
             this.cmbHSalida.TabIndex = 10;
+            // 
+            // skinEngine1
+            // 
+            this.skinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA==";
+            this.skinEngine1.SkinFile = "C:\\Users\\walte\\Desktop\\Componentes Graficos Vb2\\SKIN NET 2010 WIN 7\\SkinVS.NET\\Ma" +
+    "cOS\\MacOS.ssk";
+            this.skinEngine1.SkinStreamMain = ((System.IO.Stream)(resources.GetObject("skinEngine1.SkinStreamMain")));
             // 
             // FrmAltaGenerica
             // 
@@ -344,5 +353,6 @@
         private System.Windows.Forms.Label lblHsalidaDocente;
         private System.Windows.Forms.ComboBox cmbHoraEntrada;
         private System.Windows.Forms.ComboBox cmbHSalida;
+        private Sunisoft.IrisSkin.SkinEngine skinEngine1;
     }
 }

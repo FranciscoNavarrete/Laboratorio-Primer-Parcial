@@ -66,7 +66,6 @@ namespace FormularioJardin
                 this.cmbProfesor.DataSource = this.lstDocentes;
             this.cmbProfesor.DisplayMember = "Nombre";
             this.cmbProfesor.ValueMember = "Dni";
-
             //this.cmbProfesorlistBox1
             //this.listBox1.DataSource = alumnos;
 
@@ -120,8 +119,6 @@ namespace FormularioJardin
                     //Alumno alumno = ls
                     if (!(this.lstAulaAmarillo is null))
                         this.lstAulaAmarillo.Add(new Aula(this.colorSala, this.jornada, this.unDocente));
-
-
                     //lstBoxAlumSinAula.Items.Remove()
                     //foreach (var item in this.lstAlumnos)
                     //{
@@ -211,6 +208,12 @@ namespace FormularioJardin
             //agrego de la listbox de sin aula los alumnos seleccionados y los mando a los que tienen aula
             lstboxAlumConAula.Items.Add(lstBoxAlumSinAula.SelectedItem);
             lstBoxAlumSinAula.Items.RemoveAt(lstBoxAlumSinAula.SelectedIndex);
+        }
+
+        private void btnPasoASinAula_Click(object sender, EventArgs e)
+        {
+            lstBoxAlumSinAula.Items.Add(lstboxAlumConAula.SelectedItem);
+            lstboxAlumConAula.Items.RemoveAt(lstboxAlumConAula.SelectedIndex);
         }
     }
 }

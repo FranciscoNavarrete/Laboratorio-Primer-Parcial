@@ -34,7 +34,14 @@ namespace Entidades
         public int Dni
         {
             get { return this.dni; }
-            set { this.dni = value; }
+            set 
+            {
+                //if(value < 1000000)
+                //{
+                //    throw new PersonaSinDNIException("Dni incorrecto");
+                //}
+                this.dni = value; 
+            }
         }
         public bool Femenino
         {
@@ -53,7 +60,7 @@ namespace Entidades
         {
             this.nombre = nombre;
             this.apellido = apellido;
-            this.dni = dni;
+            this.Dni = dni;
         }
         public Persona(string nombre, string apellido, int dni, bool femenino):this(nombre,apellido,dni)
         {

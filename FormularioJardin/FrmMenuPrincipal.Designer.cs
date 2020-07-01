@@ -42,6 +42,7 @@
             this.sueldoNoDocenteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.recaudacionTotalDelJardinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.CreoObjDefault = new System.Windows.Forms.ToolStripMenuItem();
+            //this.skinEngine1 = new Sunisoft.IrisSkin.SkinEngine(((System.ComponentModel.Component)(this)));
             this.Menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -148,12 +149,20 @@
             this.CreoObjDefault.Text = "Crear por defecto";
             this.CreoObjDefault.Click += new System.EventHandler(this.CreoObjDefault_Click);
             // 
+            // skinEngine1
+            // 
+            //this.skinEngine1.SerialNumber = "U4N2UjLguUZs33UR+Vy47JAZ81t2fjIFvut28vc5oHiVeivGb/NZMA==";
+            //this.skinEngine1.SkinFile = "C:\\Users\\walte\\Desktop\\Componentes Graficos Vb2\\SKIN NET 2010 WIN 7\\SkinVS.NET\\Ma" +
+    //"cOS\\MacOS.ssk";
+            //this.skinEngine1.SkinStreamMain = ((System.IO.Stream)(resources.GetObject("skinEngine1.SkinStreamMain")));
+            // 
             // MenPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 611);
             this.Controls.Add(this.Menu);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -188,5 +197,6 @@
         private System.Windows.Forms.ToolStripMenuItem sueldoNoDocenteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem recaudacionTotalDelJardinToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem CreoObjDefault;
+       // private Sunisoft.IrisSkin.SkinEngine skinEngine1;
     }
 }

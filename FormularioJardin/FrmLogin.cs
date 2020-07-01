@@ -39,7 +39,8 @@ namespace FormularioJardin
 
         private void FrmLogin_Load(object sender, EventArgs e)
         {
-
+            //TimeSpan.FromMilliseconds(2000);
+            //this.Close();
         }
     }
 }
